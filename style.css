@@ -3,3 +3,8 @@ html, body {
 	padding: 0;
 }
 
+.header-navigation {
+	display: flex;
+	align-items: center;
+}
+
