@@ -9,11 +9,16 @@ html, body {
 	font-family: 'Roboto', sans-serif;
 }
 
+.header {
+	background: #1F2937;
+}
+
 .header-navigation {
 	display: flex;
 	align-items: center;
-	padding: 10px;
-	background: #1F2937;
+	padding-top: 20px;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .header-logo {
@@ -28,11 +33,57 @@ html, body {
 ul {
 	list-style-type: none;
 	display: flex;
-	gap: 10px	;
+	gap: 20px;
 }
 
 .header-link {
 	text-decoration: none;
 	font-size: 18px;
 	color: #E5E7EB;
+}
+
+
+.header-hero {
+	display: flex;
+	align-items: center;
+	gap: 100px;
+	padding: 100px 0;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header-hero-text {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 15px;
+}
+
+.header-hero-title {
+	font-size: 48px;
+	color: #F9FAF8;
+}
+
+.header-hero-description {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.header-hero-placeholder {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	background: grey;
+	padding: 110px 0;
+}
+
+.header-hero-button {
+	background: #3882F6;
+	padding: 7px 28px;
+	border: none;
+	border-radius: 10px;
+	color: #E5E7EB;
+	font-size: 18px;
 }
