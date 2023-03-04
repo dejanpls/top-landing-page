@@ -1,6 +1,12 @@
-html, body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap');
+
+* {
 	margin: 0;
 	padding: 0;
+}
+
+html, body {
+	font-family: 'Roboto', sans-serif;
 }
 
 .header-navigation {
@@ -9,8 +15,16 @@ html, body {
 }
 
 .header-logo {
+	text-decoration: none;
 	margin-right: auto;
 }
 
 
+ul {
+	list-style-type: none;
+	display: flex;
+}
 
+.header-link {
+	text-decoration: none;
+}
