@@ -9,6 +9,8 @@ html, body {
 	font-family: 'Roboto', sans-serif;
 }
 
+/*nav*/
+
 .header {
 	background: #1F2937;
 }
@@ -42,6 +44,8 @@ ul {
 	color: #E5E7EB;
 }
 
+
+/*hero*/
 
 .header-hero {
 	display: flex;
@@ -109,8 +113,7 @@ ul {
 .info-cards {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	gap: 50px;
+	justify-content: space-between;
 }
 
 .info-card {
@@ -127,5 +130,31 @@ ul {
 
 .info-card-text {
 	text-align: center;
+	padding-bottom: 50px;
 }
 
+/*quote*/
+
+.quote {
+	background: #E5E7EB;
+	padding: 100px 0;
+}
+
+blockquote {
+	width: 60%;
+	margin: 0 auto;
+}
+
+blockquote > p {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 100;
+}
+
+figcaption {
+	text-align: right;
+	width: 60%;
+	margin: 0 auto;
+	font-size: 24px;
+	font-weight: bold;
+}
